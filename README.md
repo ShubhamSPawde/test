@@ -93,6 +93,9 @@ Rename the default branch from `master` to `main`:
 ```bash
 git branch -m master main
 ```
+```bash
+gh repo edit --default-branch main
+```
 
 ### 11. **Push the Changes to the `main` Branch**
 Push the `main` branch to the GitHub repository:
